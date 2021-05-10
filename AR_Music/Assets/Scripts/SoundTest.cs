@@ -7,7 +7,11 @@ public class SoundTest : MonoBehaviour
     public AudioClip[] aClips;
     public AudioSource myAudioSource;
 
+    public int size = 2;
+
     private int note;
+
+    string button_name;
 
     // Start is called before the first frame update
     void Start()
@@ -21,8 +25,37 @@ public class SoundTest : MonoBehaviour
     {
         if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
         {
-            PlayNote(note);
+            ScreenTapped();
         }
+    }
+
+    private void ScreenTapped()
+    {
+        if (ButtonTouched())
+        {
+            ScreenCapture.CaptureScreenshot($"Assets/Screenshots/Screenshot.png", size);
+        }
+        else
+            PlayNote(note);
+    }
+
+    private bool ButtonTouched()
+    {
+        bool ret = false;
+
+        Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+        RaycastHit hit;
+
+        if(Physics.Raycast(ray, out hit))
+        { 
+            button_name = hit.transform.name;
+            if (button_name == "Screenshot Button") 
+            { 
+                ret = true; 
+            }
+        }
+
+        return ret;
     }
 
     private void PlayNote(int color)
