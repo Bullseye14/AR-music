@@ -34,9 +34,10 @@ public class SoundTest : MonoBehaviour
         if (ButtonTouched())
         {
             ScreenCapture.CaptureScreenshot($"Assets/Screenshots/Screenshot.png", size);
+            PlayNote(0);
         }
         else
-            PlayNote(note);
+            PlayNote(5);
     }
 
     private bool ButtonTouched()

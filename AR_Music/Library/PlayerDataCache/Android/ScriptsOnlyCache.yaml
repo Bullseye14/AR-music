@@ -11,6 +11,13 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     Vuforia.UnityExtensions.dll:
     - Vuforia.VuforiaBehaviour
     - Vuforia.VuforiaConfiguration
@@ -41,18 +48,38 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11844}
+    - Class: 114
+      Script: {instanceID: 11868}
+    - Class: 114
+      Script: {instanceID: 12088}
+    - Class: 114
       Script: {instanceID: 12416}
     - Class: 114
       Script: {instanceID: 12418}
     - Class: 114
       Script: {instanceID: 12512}
     - Class: 114
+      Script: {instanceID: 12632}
+    - Class: 114
       Script: {instanceID: 13350}
+    - Class: 114
+      Script: {instanceID: 13904}
+    - Class: 114
+      Script: {instanceID: 14400}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
@@ -1127,7 +1154,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 40dc53117666b053c082007c358623f7
+      Hash: bc6418937e5c133d7ccde892aac07488
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundTest
