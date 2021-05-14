@@ -7,14 +7,11 @@ public class ButtonHandler : MonoBehaviour
     public AudioClip[] aClips;
     public AudioSource myAudioSource;
 
+    public SoundTest soundTest;
+
     public void ChangeInstrument_()
     {
-        PlayNote(0);
-    }
-
-    private void PlayNote(int color)
-    {
-        myAudioSource.clip = aClips[color];
-        myAudioSource.Play();
+        if (soundTest.instrument == 1) soundTest.instrument = 2;
+        else if (soundTest.instrument == 2) soundTest.instrument = 1;
     }
 }

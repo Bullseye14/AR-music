@@ -84,9 +84,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13904}
     - Class: 114
-      Script: {instanceID: 14400}
+      Script: {instanceID: 14060}
     - Class: 114
-      Script: {instanceID: 16252}
+      Script: {instanceID: 14402}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1174,7 +1174,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: bc6418937e5c133d7ccde892aac07488
+      Hash: c70404c2790775b79e4661d4794b641d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundTest
@@ -1274,6 +1274,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 60d2b76a6946dff37321f8ef7c3572e5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonHandler
   - hash:
       serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
@@ -1928,12 +1934,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 40dc53117666b053c082007c358623f7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonHandler
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

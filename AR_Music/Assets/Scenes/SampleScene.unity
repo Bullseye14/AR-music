@@ -344,7 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85c1079831f6d5e4f83e1c43c521913e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aClips:
+  pianoNotes:
   - {fileID: 8300000, guid: c5048c4777a7f104eb48b8c730a539d8, type: 3}
   - {fileID: 8300000, guid: 508ae38c882978f49b73072175c50409, type: 3}
   - {fileID: 8300000, guid: 4de23a7775b7b7443ad71fdeac53a35b, type: 3}
@@ -362,9 +362,26 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1230e320be2a22d4dbc54cbd481dfdbc, type: 3}
   - {fileID: 8300000, guid: a58770fab6780d144b1e6a737f5db440, type: 3}
   - {fileID: 8300000, guid: 1f97882dfb2e0174982f7f2f504fae58, type: 3}
-  - {fileID: 8300000, guid: e1e36747a76dee244b620f6ce9563500, type: 3}
+  guitarNotes:
+  - {fileID: 8300000, guid: ee8eff1460b60d9488dcf7dea39b487a, type: 3}
+  - {fileID: 8300000, guid: 48b6d7fae3b3c0a448c5d1351cdaf64a, type: 3}
+  - {fileID: 8300000, guid: 5bfedbfbf1fe6d34eb3898cc14624226, type: 3}
+  - {fileID: 8300000, guid: a88bef9244618074bbc58da6a9cd3027, type: 3}
+  - {fileID: 8300000, guid: 3cdd1d474966a3545bedf589a0309a67, type: 3}
+  - {fileID: 8300000, guid: cc405f81d15437143a96c42a4d6140ba, type: 3}
+  - {fileID: 8300000, guid: 84a46503a92959544944bd9c4c9718a5, type: 3}
+  - {fileID: 8300000, guid: 1a69ce18c0b932441a36c4b47740623a, type: 3}
+  - {fileID: 8300000, guid: e5742ea89cc06124bb6f22e21b2816c3, type: 3}
+  - {fileID: 8300000, guid: c319a682cb840d74abbc85609e029fa0, type: 3}
+  - {fileID: 8300000, guid: b4cc7988d73f17147a66fc53f5ee8483, type: 3}
+  - {fileID: 8300000, guid: f2ce280a6defa374c9e2d9eb61814138, type: 3}
+  - {fileID: 8300000, guid: 43a07acafc82a45419db32c65ee2de39, type: 3}
+  - {fileID: 8300000, guid: 74a74066d34697548bf2332f99ebdab5, type: 3}
+  - {fileID: 8300000, guid: e0302f36ff8f8e04581211d22e267a57, type: 3}
+  - {fileID: 8300000, guid: b0afbc05ecca214498c5c6773927340e, type: 3}
+  - {fileID: 8300000, guid: 523aaa3372b663443b0c2ee2eef0d15c, type: 3}
   myAudioSource: {fileID: 223974227}
-  size: 2
+  instrument: 2
 --- !u!4 &223974229
 Transform:
   m_ObjectHideFlags: 0
@@ -1057,6 +1074,35 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833668495}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &840775769
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'QR CODEMaterial
+
+    16082'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6ab861cf0576a0543a246263437ac23f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &849539593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,35 +1293,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862239562}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &908542123
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'QR CODEMaterial
-
-    16224'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6ab861cf0576a0543a246263437ac23f, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!43 &971453085
 Mesh:
   m_ObjectHideFlags: 0
@@ -1682,6 +1699,7 @@ MonoBehaviour:
   aClips:
   - {fileID: 8300000, guid: e1e36747a76dee244b620f6ce9563500, type: 3}
   myAudioSource: {fileID: 223974227}
+  soundTest: {fileID: 223974228}
 --- !u!1 &1294540760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2526,7 +2544,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 908542123}
+  - {fileID: 840775769}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
