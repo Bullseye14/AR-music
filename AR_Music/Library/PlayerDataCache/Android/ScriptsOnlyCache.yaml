@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ButtonHandler
     - SoundTest
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
@@ -14,8 +15,10 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     Vuforia.UnityExtensions.dll:
     - Vuforia.ImageTargetBehaviour
     - Vuforia.TurnOffBehaviour
@@ -57,32 +60,42 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11870}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 12366}
+      Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 12408}
+      Script: {instanceID: 12088}
+    - Class: 114
+      Script: {instanceID: 12364}
+    - Class: 114
+      Script: {instanceID: 12406}
+    - Class: 114
+      Script: {instanceID: 12416}
     - Class: 114
       Script: {instanceID: 12418}
     - Class: 114
-      Script: {instanceID: 12420}
+      Script: {instanceID: 12512}
     - Class: 114
-      Script: {instanceID: 12514}
+      Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 12634}
+      Script: {instanceID: 13350}
     - Class: 114
-      Script: {instanceID: 13352}
+      Script: {instanceID: 13576}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13904}
     - Class: 114
-      Script: {instanceID: 13906}
+      Script: {instanceID: 14400}
     - Class: 114
-      Script: {instanceID: 14402}
+      Script: {instanceID: 16252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
@@ -1915,6 +1928,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 40dc53117666b053c082007c358623f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonHandler
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
