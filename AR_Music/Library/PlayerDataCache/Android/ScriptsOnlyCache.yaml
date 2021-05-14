@@ -57,27 +57,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11868}
+      Script: {instanceID: 11870}
     - Class: 114
-      Script: {instanceID: 12364}
+      Script: {instanceID: 12366}
     - Class: 114
-      Script: {instanceID: 12406}
-    - Class: 114
-      Script: {instanceID: 12416}
+      Script: {instanceID: 12408}
     - Class: 114
       Script: {instanceID: 12418}
     - Class: 114
-      Script: {instanceID: 12512}
+      Script: {instanceID: 12420}
     - Class: 114
-      Script: {instanceID: 12632}
+      Script: {instanceID: 12514}
     - Class: 114
-      Script: {instanceID: 13350}
+      Script: {instanceID: 12634}
     - Class: 114
-      Script: {instanceID: 13576}
+      Script: {instanceID: 13352}
     - Class: 114
-      Script: {instanceID: 13904}
+      Script: {instanceID: 13578}
     - Class: 114
-      Script: {instanceID: 14400}
+      Script: {instanceID: 13906}
+    - Class: 114
+      Script: {instanceID: 14402}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1918,4 +1918,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/fcbal/Documents/GitHub/AR-music/AR_Music/test.apk
+  playerPath: C:/Users/pccpo/OneDrive/Documents/GitHub/AR-music/AR_Music/test.apk
