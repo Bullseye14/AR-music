@@ -31,41 +31,97 @@ public class SoundTest : MonoBehaviour
 
     private void ScreenTapped()
     {
-        if (ButtonTouched())
-        {
-            ScreenCapture.CaptureScreenshot($"Assets/Screenshots/Screenshot.png", size);
-            PlayNote(0);
-        }
-        else
-            PlayNote(5);
+        ButtonTouched();
     }
 
-    private bool ButtonTouched()
+    private void ButtonTouched()
     {
-        bool ret = false;
-
         Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
         RaycastHit hit;
 
-        if(Physics.Raycast(ray, out hit))
-        { 
+        if (Physics.Raycast(ray, out hit))
+        {
             button_name = hit.transform.name;
-            if (button_name == "Screenshot Button") 
-            { 
-                ret = true; 
+
+            switch (button_name)
+            {
+                case "C":
+                    PlayNote(0);
+                    break;
+
+                case "C#":
+                    PlayNote(1);
+                    break;
+
+                case "D":
+                    PlayNote(2);
+                    break;
+
+                case "D#":
+                    PlayNote(3);
+                    break;
+
+                case "E":
+                    PlayNote(4);
+                    break;
+
+                case "F":
+                    PlayNote(5);
+                    break;
+
+                case "F#":
+                    PlayNote(6);
+                    break;
+
+                case "G":
+                    PlayNote(7);
+                    break;
+
+                case "G#":
+                    PlayNote(8);
+                    break;
+
+                case "A":
+                    PlayNote(9);
+                    break;
+
+                case "A#":
+                    PlayNote(10);
+                    break;
+
+                case "B":
+                    PlayNote(11);
+                    break;
+
+                case "C'":
+                    PlayNote(12);
+                    break;
+
+                case "C'#":
+                    PlayNote(13);
+                    break;
+
+                case "D'":
+                    PlayNote(14);
+                    break;
+
+                case "D'#":
+                    PlayNote(15);
+                    break;
+
+                case "E'":
+                    PlayNote(16);
+                    break;
+
+                default:
+                    break;
             }
         }
-
-        return ret;
     }
 
     private void PlayNote(int color)
     {
         myAudioSource.clip = aClips[color];
         myAudioSource.Play();
-
-        note++;
-
-        if (note == 7) note = 0;
     }
 }
