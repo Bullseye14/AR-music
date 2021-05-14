@@ -14,15 +14,16 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.Image
     Vuforia.UnityExtensions.dll:
+    - Vuforia.ImageTargetBehaviour
+    - Vuforia.TurnOffBehaviour
     - Vuforia.VuforiaBehaviour
     - Vuforia.VuforiaConfiguration
     VuforiaScripts.dll:
     - DefaultInitializationErrorHandler
+    - DefaultTrackableEventHandler
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -33,9 +34,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -48,11 +57,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11844}
-    - Class: 114
       Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 12088}
+      Script: {instanceID: 12364}
+    - Class: 114
+      Script: {instanceID: 12406}
     - Class: 114
       Script: {instanceID: 12416}
     - Class: 114
@@ -64,6 +73,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13350}
     - Class: 114
+      Script: {instanceID: 13576}
+    - Class: 114
       Script: {instanceID: 13904}
     - Class: 114
       Script: {instanceID: 14400}
@@ -72,10 +83,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
