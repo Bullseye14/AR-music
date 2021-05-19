@@ -1174,7 +1174,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: c70404c2790775b79e4661d4794b641d
+      Hash: 72ca50d4b32ba15b6e03486b0e977a17
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundTest
@@ -1937,4 +1937,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/pccpo/OneDrive/Documents/GitHub/AR-music/AR_Music/test.apk
+  playerPath: C:/Users/fcbal/Documents/GitHub/AR-music/AR_Music/test.apk

@@ -12,6 +12,7 @@ public class ButtonHandler : MonoBehaviour
     public void ChangeInstrument_()
     {
         if (soundTest.instrument == 1) soundTest.instrument = 2;
-        else if (soundTest.instrument == 2) soundTest.instrument = 1;
+        else if (soundTest.instrument == 2) soundTest.instrument = 3;
+        else if (soundTest.instrument == 3) soundTest.instrument = 1;
     }
 }

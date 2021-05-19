@@ -6,6 +6,7 @@ public class SoundTest : MonoBehaviour
 {
     public AudioClip[] pianoNotes;
     public AudioClip[] guitarNotes;
+    public AudioClip[] trumpetNotes;
     public AudioSource myAudioSource;
 
     public int instrument = 1;
@@ -131,6 +132,11 @@ public class SoundTest : MonoBehaviour
 
             case 2:
                 myAudioSource.clip = guitarNotes[color];
+                myAudioSource.Play();
+                break;
+
+            case 3:
+                myAudioSource.clip = trumpetNotes[color];
                 myAudioSource.Play();
                 break;
 
