@@ -11,15 +11,12 @@ public class SoundTest : MonoBehaviour
 
     public int instrument = 1;
 
-    private int note;
-
     string button_name;
 
     // Start is called before the first frame update
     void Start()
     {
         myAudioSource = GetComponent<AudioSource>();
-        note = 0;
     }
 
     // Update is called once per frame
@@ -142,7 +139,6 @@ public class SoundTest : MonoBehaviour
 
             default:
                 break;
-        }
-        
+        }        
     }
 }

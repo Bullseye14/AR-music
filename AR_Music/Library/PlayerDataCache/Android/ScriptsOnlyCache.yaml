@@ -62,31 +62,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 11868}
+      Script: {instanceID: 11870}
     - Class: 114
-      Script: {instanceID: 12088}
+      Script: {instanceID: 12090}
     - Class: 114
-      Script: {instanceID: 12364}
+      Script: {instanceID: 12366}
     - Class: 114
-      Script: {instanceID: 12406}
-    - Class: 114
-      Script: {instanceID: 12416}
+      Script: {instanceID: 12408}
     - Class: 114
       Script: {instanceID: 12418}
     - Class: 114
-      Script: {instanceID: 12512}
+      Script: {instanceID: 12420}
     - Class: 114
-      Script: {instanceID: 12632}
+      Script: {instanceID: 12514}
     - Class: 114
-      Script: {instanceID: 13350}
+      Script: {instanceID: 12634}
     - Class: 114
-      Script: {instanceID: 13576}
+      Script: {instanceID: 13352}
     - Class: 114
-      Script: {instanceID: 13904}
+      Script: {instanceID: 13578}
     - Class: 114
-      Script: {instanceID: 14060}
+      Script: {instanceID: 13906}
     - Class: 114
-      Script: {instanceID: 14402}
+      Script: {instanceID: 14062}
+    - Class: 114
+      Script: {instanceID: 14404}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1276,7 +1276,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 60d2b76a6946dff37321f8ef7c3572e5
+      Hash: b2d7a26de1ec6e6b2d76e7bbc22d4dc1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonHandler
@@ -1937,4 +1937,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/fcbal/Documents/GitHub/AR-music/AR_Music/test.apk
+  playerPath: C:/Users/pccpo/OneDrive/Documents/GitHub/AR-music/AR_Music/app.apk
