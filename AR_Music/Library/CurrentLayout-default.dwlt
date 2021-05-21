@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 12004, y: 14042}
   vertical: 0
-  controlID: 130
+  controlID: 38
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 12004, y: 14042}
   vertical: 1
-  controlID: 131
+  controlID: 39
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +176,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 221}
   m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 132
+  controlID: 40
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -386,7 +386,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3614ffff5614ffff5814ffff5873ffff7873ffffd675ffff8a76ffffaa76ffff0879ffffba79ffffda79ffff387cfffffa7cffff1a7dffff787fffff0c82ffff2c82ffff8a84fffff68affff168bffff748dffff3c8effff5c8effffba90ffff8291ffffa291ffff0094ffffb894ffffd894ffff3697ffff4c98ffff6c98ffffca9affff909cffffb09cffff0e9fffffce9fffffee9fffff4ca2ffff4ea4ffff6ea4ffffcca6ffff92a7ffffb2a7ffff10aaffffe0abffff00acffff5eaeffff24afffff44afffffa2b1ffff68b2ffff88b2ffffe6b4ffffe0b6ffff00b7ffff02b7ffff54b8ffff74b8ffffd2baffff20bcffff40bcffff9ebeffff62bfffff82bfffffe0c1ffffeac7ffff0ac8ffff68caffffbcd4ffffdcd4ffff3ad7fffffad7ffff1cd8ffff7adaffff60fbffff4e3a0000623a0000b2410000ae460000e64d0000ea500000ea540000fe5e0000066700000e6e0000267e00002e8200003e8e0000
+      m_ExpandedIDs: 42f3ffff64f3ffffc2f5ffff5ef8ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -486,21 +486,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Audio Clips/Guitarra
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Audio Clips/Guitarra
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\pccpo\OneDrive\Documents\GitHub\AR-music\AR_Music
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7e3b0000
-    m_LastClickedID: 15230
-    m_ExpandedIDs: 00000000723b0000
+    m_SelectedIDs: fe3b0000
+    m_LastClickedID: 15358
+    m_ExpandedIDs: 00000000e43b0000ee3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -528,7 +528,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000723b0000
+    m_ExpandedIDs: 00000000e43b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -632,8 +632,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -601.5
     m_HBaseRangeMax: 601.5
-    m_VBaseRangeMin: -314.5
-    m_VBaseRangeMax: 314.5
+    m_VBaseRangeMin: -325
+    m_VBaseRangeMax: 325
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -650,11 +650,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1203
-      height: 629
+      height: 650
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 601.5, y: 314.5}
+    m_Translation: {x: 601.5, y: 325}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -662,9 +662,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -601.5
-      y: -314.5
+      y: -325
       width: 1203
-      height: 629
+      height: 650
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1203, y: 650}
@@ -760,7 +760,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.31124187, y: -0.001424784, z: 0.00046713397, w: 0.9503301}
     speed: 2
-    m_Value: {x: 0.31124172, y: -0.0014247833, z: 0.00046713374, w: 0.9503296}
+    m_Value: {x: -0.31124187, y: 0.001424784, z: -0.00046713397, w: -0.9503301}
   m_Size:
     m_Target: 0.7942834
     speed: 2
