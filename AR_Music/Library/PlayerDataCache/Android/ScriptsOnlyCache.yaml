@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ButtonHandler
+    - Feedback
     - SoundTest
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
@@ -62,31 +63,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 11870}
+      Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 12090}
+      Script: {instanceID: 12088}
     - Class: 114
-      Script: {instanceID: 12366}
+      Script: {instanceID: 12364}
     - Class: 114
-      Script: {instanceID: 12408}
+      Script: {instanceID: 12406}
+    - Class: 114
+      Script: {instanceID: 12416}
     - Class: 114
       Script: {instanceID: 12418}
     - Class: 114
-      Script: {instanceID: 12420}
+      Script: {instanceID: 12512}
     - Class: 114
-      Script: {instanceID: 12514}
+      Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 12634}
+      Script: {instanceID: 13350}
     - Class: 114
-      Script: {instanceID: 13352}
+      Script: {instanceID: 13576}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13904}
     - Class: 114
-      Script: {instanceID: 13906}
+      Script: {instanceID: 14060}
     - Class: 114
-      Script: {instanceID: 14062}
+      Script: {instanceID: 14402}
     - Class: 114
-      Script: {instanceID: 14404}
+      Script: {instanceID: 18138}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1174,7 +1177,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 72ca50d4b32ba15b6e03486b0e977a17
+      Hash: 2dbdd1e10adbbcca737746e2a22df931
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundTest
@@ -1934,6 +1937,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 68fe860486e82c9289710f5d7f2cd88d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Feedback
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

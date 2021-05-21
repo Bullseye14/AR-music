@@ -9,9 +9,11 @@ public class SoundTest : MonoBehaviour
     public AudioClip[] trumpetNotes;
     public AudioSource myAudioSource;
 
+    public GameObject[] tiles;
+
     public int instrument = 1;
 
-    string button_name;
+    public string button_name;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,8 @@ public class SoundTest : MonoBehaviour
         {
             ScreenTapped();
         }
+        else
+            button_name = "";
     }
 
     private void ScreenTapped()
