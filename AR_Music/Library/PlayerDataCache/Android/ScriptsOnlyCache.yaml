@@ -1285,7 +1285,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: b2d7a26de1ec6e6b2d76e7bbc22d4dc1
+      Hash: abd8282ae803ef417c45843375aa6cae
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonHandler
@@ -1946,4 +1946,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/pccpo/OneDrive/Documents/GitHub/AR-music/AR_Music/app.apk
+  playerPath: C:/Users/pccpo/OneDrive/Documents/GitHub/AR-music/AR_Music/Prototype.apk
